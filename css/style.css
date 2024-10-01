@@ -1,3 +1,7 @@
+/* font-family: "Roboto", sans-serif;
+font-family: "Open Sans", sans-serif;
+font-family: "Yellowtail", cursive; */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +12,94 @@ html, body, .site {
     height: 100%;
 }
 
+.site {
+    letter-spacing: 0.36px;
+    color: #274C5B;
+}
+
 ol, ul {
     list-style-type: none;
+}
+
+.container {
+    width: min(95%, 1380px);
+    margin: 0 auto;
+}
+
+.action-link {
+    color: #7EB693 !important;
+}
+
+/* ====================================================================================================== */
+
+.header {
+    padding: 40px 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__wrapper {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+.header__logo-link {
+    display: block;
+}
+
+.header__logo-image {
+    display: block;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header__nav-item:last-child {
+    margin-left: 20px;
+}
+
+.header__nav-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    line-height: 2rem;
+    color: #274C5B;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header__nav-link:hover {
+    color: #7EB693;
+}
+
+.header__basket {
+    border: 1px solid #D4D4D4;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.header__basket-img {
+    margin: 7px 10px;
+    background-color: #274C5B;
+    background-image: url(/images/img_basket.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 24px;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.header__basket-counter {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    line-height: 28.8px;
+    margin-right: 25px;
 }
