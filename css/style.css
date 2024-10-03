@@ -191,12 +191,15 @@ ol, ul {
 
 .get {
     padding: 140px 0;
+    /* height: 100%; */
 }
 
 .get__inner {
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    /* height: 100%; */
+    align-items: center;
 }
 
 .get__natural {
@@ -207,14 +210,35 @@ ol, ul {
     background-image: url(/images/img_get_offer.png);
 }
 
+/* TODO Попробовать обойти жёсткую высоту избавившить от нижнего отступа */
 .get__natural,
 .get__offer {
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     width: 100%;
+    /* height: 100%; */
+    /* flex-grow: 1; */
+    border-radius: 30px;
+    overflow: hidden;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.get__subtitle,
+.get__text {
+    margin-left: 55px;
 }
 
 .get__subtitle--color,
 .get__text--color {
     color: #ffffff;
+}
+
+.get__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+    width: 39%;
 }
