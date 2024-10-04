@@ -543,3 +543,21 @@ ol, ul {
     font-weight: bold;
     line-height: 32.4px;
 }
+
+/* ================================================================================================ */
+
+.offer {
+    padding: 155px 0;
+    background-color: #274C5B;
+}
+
+.offer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 45px;
+}
+
+.offer__title {
+    color: white;
+}
