@@ -560,4 +560,42 @@ ol, ul {
 
 .offer__title {
     color: white;
+    text-transform: capitalize;
+}
+
+/* =========================================================================================== */
+
+.eco {
+    display: flex;
+}
+
+.eco__info {
+    background-color: #fff;
+    align-self: center;
+    border-radius: 30px;
+    padding: 0 70px 0 60px;
+    width: 48%;
+    transform: translateX(-60px);
+}
+
+.eco__title {
+    margin-bottom: 30px;
+    width: 55%;
+}
+
+.eco__title,
+.eco__adv-title {
+    text-transform: capitalize;
+}
+
+.eco__adv-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 32.2px;
+    margin-bottom: 5px;
+}
+
+.eco__text {
+    margin-bottom: 15px;
 }
