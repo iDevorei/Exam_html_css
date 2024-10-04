@@ -297,32 +297,29 @@ ol, ul {
     margin-bottom: 30px;
 }
 
-.about__features-item:nth-child(1)::before {
+.about__features-item:nth-child(1)::before,
+.about__features-item:nth-child(2)::before {
     content: '';
     display: block;
-    background-image: url(/images/img_about_food_ico.png);
     background-color: #fff;
     background-repeat: no-repeat;
     background-position: center;
-    width: 53px;
-    height: 46px;
-    padding: 27px 24px;
     border-radius: 20px;
     flex-shrink: 0;
 }
 
+.about__features-item:nth-child(1)::before {
+    background-image: url(/images/img_about_food_ico.png);
+    width: 53px;
+    height: 46px;
+    padding: 27px 24px;
+}
+
 .about__features-item:nth-child(2)::before {
-    content: '';
-    display: block;
     background-image: url(/images/img_about_standarts_ico.png);
-    background-color: #fff;
-    background-repeat: no-repeat;
-    background-position: center;
     width: 56px;
     height: 52px;
     padding: 24px 22px;
-    border-radius: 20px;
-    flex-shrink: 0;
 }
 
 .about__features-title {
@@ -330,4 +327,109 @@ ol, ul {
     line-height: 35px;
     margin-bottom: 10px;
     font-weight: normal;
+}
+
+/* ==================================================================================== */
+
+.products__subtitle,
+.products__title {
+    text-align: center;
+}
+
+.products__title {
+    margin-bottom: 40px;
+}
+
+.products__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.products__item {
+    background-color: #F9F8F8;
+    border-radius: 30px;
+}
+
+.products__card {
+    padding: 67px 30px 35px;
+    position: relative;
+}
+
+.products__card-status {
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 27px;
+    color: white;
+    padding: 5px 20px;
+    background-color: #274C5B;
+    border-radius: 8px;
+
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.products__card-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    line-height: 35.2px;
+    margin-bottom: 12px;
+}
+
+.products__card-name::after {
+    content: '';
+    display: block;
+    border: 1px solid #D4D4D4;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.products__card-line {
+    margin-bottom: 10px;
+    color: #B8B8B8;
+}
+
+.products__card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products__card-price {
+    display: flex;
+    gap: 10px;
+}
+
+.products__card-price-old,
+.products__card-price-now {
+    font-family: "Open Sans", sans-serif;
+    line-height: 32.4px;
+}
+
+.products__card-price-old {
+    font-size: 17px;
+    color: #B8B8B8;
+    text-decoration: line-through;
+}
+
+.products__card-price-now {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.products__card-rating {
+    display: flex;
+    gap: 2px;
+}
+
+.products__card-stars {
+    background-image: url(/images/img_star_ico.png);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 13px;
+    display: inline-block;
 }
