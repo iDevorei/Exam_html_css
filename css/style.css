@@ -30,6 +30,10 @@ ol, ul {
     margin: 0 auto;
 }
 
+.link-hov:hover {
+    color: #7EB693;
+}
+
 .action-link {
     color: #7EB693 !important;
 }
@@ -133,10 +137,6 @@ ol, ul {
     color: #274C5B;
     cursor: pointer;
     text-decoration: none;
-}
-
-.header__nav-link:hover {
-    color: #7EB693;
 }
 
 .header__basket {
@@ -569,6 +569,10 @@ ol, ul {
     display: flex;
 }
 
+.eco__img {
+    display: block;
+}
+
 .eco__info {
     background-color: #fff;
     align-self: center;
@@ -598,4 +602,53 @@ ol, ul {
 
 .eco__text {
     margin-bottom: 15px;
+}
+
+/* ========================================================================== */
+
+.links {
+    background-color: #EFF6F1;
+    /* height: 100%; */
+    padding: 140px 0;
+}
+
+.links__inner {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* height: 100%; */
+}
+
+.links__item:nth-child(1) {
+    background-image: url(/images/img_links_fruit.png);
+}
+
+.links__item:nth-child(2) {
+    background-image: url(/images/img_links_organic.png);
+}
+
+.links__item:nth-child(3) {
+    background-image: url(/images/img_links_nuts.png);
+}
+
+.links__item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+}
+
+.links__link {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 35px;
+    text-decoration: none;
+    color: #274C5B;
+    padding: 30px 80px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 50% 0 50%;
 }
