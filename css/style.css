@@ -652,3 +652,60 @@ ol, ul {
     border-radius: 20px;
     margin: 50% 0 50%;
 }
+
+/* ================================================================================== */
+
+.subscribe {
+    margin-top: 30px;
+}
+
+.subscribe__inner {
+    background-image: url(/images/img_subscr_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 70px;
+    align-items: center;
+}
+
+.subscribe__unic-title {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+    color: white;
+    text-transform: capitalize;
+    width: 30%;
+}
+
+.subscribe__form-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe__email {
+    border: 1px solid #CCCCCC;
+    border-radius: 16px;
+    padding: 35px 30px;
+    width: 350px;
+}
+
+.subscribe__email::placeholder,
+.subscribe__email {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 0.36px;
+    color: #525C60;
+}
+
+.subscribe__btn {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28.8px;
+}
