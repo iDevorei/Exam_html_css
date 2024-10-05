@@ -206,57 +206,58 @@ ol, ul {
 /* ======================================================================================= */
 
 .get {
-    padding: 140px 0;
-    /* height: 100%; */
+    margin: 140px 0;
 }
 
 .get__inner {
     display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    /* height: 100%; */
+    justify-content: center;
     align-items: center;
+    gap: 50px;
+}
+
+.get__natural,
+.get__offer {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 105px 0 105px 55px;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .get__natural {
     background-image: url(/images/img_get_natural.png);
 }
 
+.get__natural:hover .get__text-natural,
+.get__offer:hover .get__text-offer {
+    color: #7EB693;
+}
+
 .get__offer {
     background-image: url(/images/img_get_offer.png);
 }
 
-/* TODO Попробовать обойти жёсткую высоту избавившить от нижнего отступа */
-.get__natural,
-.get__offer {
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    width: 100%;
-    /* height: 100%; */
-    /* flex-grow: 1; */
-    border-radius: 30px;
-    overflow: hidden;
-    height: 378px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.get__subtitle,
-.get__text {
-    margin-left: 55px;
+.get__text-natural,
+.get__text-offer {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+    width: 43%;
 }
 
 .get__subtitle--color,
 .get__text--color {
-    color: #ffffff;
+    color: white;
 }
 
-.get__text {
-    font-family: "Roboto", sans-serif;
-    font-size: 40px;
-    line-height: 52px;
-    width: 39%;
+.get__text--color-dark {
+    color: #274C5B;
 }
 
 /* ========================================================================================== */
@@ -391,11 +392,6 @@ ol, ul {
     margin-top: 12px;
     margin-bottom: 10px;
 }
-
-/* .products__card-line {
-    margin-bottom: 10px;
-    color: #B8B8B8;
-} */
 
 .products__card-info {
     display: flex;
