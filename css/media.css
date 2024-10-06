@@ -328,11 +328,162 @@
 }
 
 @media (max-width: 640px) {
-    
+    .promo__general-titile {
+        font-size: 50px;
+    }
+
+    .products__card {
+        padding: 67px 10px 35px;
+    }
+
+    .testimonial__customer-text {
+        width: auto;
+    }
+
+    .testimonial__customer-text {
+        flex-direction: column;
+    }
+
+    .links {
+        padding: 30px 0;
+    }
+
+    .links__inner {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .links__link {
+        padding: 30px 100px;
+        font-size: 1.5rem;
+    }
+
+    .subscribe__inner {
+        padding: 60px 40px;
+    }
+
+    .subscribe__unic-title {
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    .footer__media-text {
+        width: auto;
+    }
 }
 
-@media (max-width: 425px) {
-    
+@media (max-width: 426px) {
+    .header {
+        padding: 20px 0;
+    }
+
+    .header__inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header__nav-btn-close {
+        top: 5px;
+        left: 30%;
+    }
+
+    .header__nav-list {
+        width: min(40%, 300px);
+        padding: 40px 25px 5px 29px;
+    }
+
+    .promo {
+        background-position: center;
+    }
+
+    .promo__inner {
+        background-color: #F2F0F1;
+    }
+
+    .promo__subtitle {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .promo__general-titile {
+        width: auto;
+        text-align: center;
+        line-height: 64px;
+    }
+
+    .promo__btn {
+        align-self: center;
+    }
+
+    .get__natural, .get__offer {
+        width: auto;
+    }
+
+    .get__text-offer {
+        font-size: 28px;
+    }
+
+    .about__title {
+        font-size: 40px;
+    }
+
+    .about__btn {
+        margin: 0 auto;
+    }
+
+    .products__navigation {
+        gap: 15px;
+    }
+
+    .products__card-status {
+        font-size: 12px;
+    }
+
+    .products__card-img {
+        width: 60vw;
+    }
+
+    .products__card-name {
+        text-align: center;
+    }
+
+    .products__card-info {
+        flex-direction: column;
+    }
+
+    .testimonial__title {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .offer {
+        padding: 30px 0;
+    }
+
+    .offer__inner {
+        align-items: center;
+        text-align: center;
+    }
+
+    .offer__title {
+        font-size: 30px;
+    }
+
+    .offer__button {
+        align-self: auto;
+    }
+
+    .eco__title {
+        font-size: 35px;
+    }
+
+    .links__link {
+        padding: 30px 60px;
+    }
+
+    .footer__utility-item {
+        margin-bottom: 15px;
+    }
 }
 
 @media (max-width: 375px) {
