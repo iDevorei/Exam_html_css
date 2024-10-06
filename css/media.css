@@ -1,3 +1,9 @@
+@media (max-width: 2560px) {
+    /* .eco__container {
+        display: none;
+    } */
+}
+
 @media (max-width: 1920px) {
     /* .eco {
         justify-content: flex-start;
@@ -58,7 +64,134 @@
 }
 
 @media (max-width: 1024px) {
-    
+    .header__wrapper {
+        gap: 60px;
+    }
+
+    .header__nav-list {
+        gap: 30px;
+    }
+
+    .promo__general-titile {
+        font-size: 60px;
+    }
+
+    .get {
+        margin: 70px 0;
+    }
+
+    .get__inner {
+        gap: 30px;
+    }
+
+    .get__text-offer {
+        width: 63%;
+    }
+
+    .about {
+        padding: 100px 0;
+        background-color: transparent;
+    }
+
+    .about__inner {
+        background-image: url(/images/img_about.png);
+    }
+
+    .about__inner,
+    .eco {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about__image {
+        display: none;
+    }
+
+    .about__info {
+        width: auto;
+        border-radius: 30px;
+        padding: 5px;
+        background-color: rgba(249, 248, 248, 0.818);
+    }
+
+    .about__subtitle,
+    .about__title {
+        text-align: center;
+    }
+
+    .about__title {
+        width: auto;
+    }
+
+    .products {
+        margin: 10px 0 20px;
+    }
+
+    .testimonial {
+        padding: 80px 0 70px;
+    }
+
+    .offer {
+        padding: 80px 0;
+    }
+
+    .eco {
+        width: min(95%, 1380px);
+        justify-content: center;
+        background-image: url(/images/img_eco_bg.png);
+        border-radius: 60px;
+    }
+
+    .eco__image {
+        display: none;
+    }
+
+    .eco__info {
+        width: auto;
+        transform: translateX(0px);
+        background-color: rgba(255, 255, 255, 0.632);
+        border-radius: 60px;
+    }
+
+    .eco__subtitle,
+    .eco__title {
+        text-align: center;
+    }
+
+    .eco__title {
+        width: auto;
+    }
+
+    .links {
+        padding: 80px 0;
+    }
+
+    .links__link {
+        padding: 30px 60px;
+    }
+
+    .subscribe__inner {
+        padding: 100px 40px;
+    }
+
+    .footer__contact {
+        text-align: center;
+        border: none;
+    }
+
+    .footer__media {
+        margin-bottom: 30px;
+    }
+
+    .footer__container {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .footer__map {
+        height: 400px;
+    }
 }
 
 @media (max-width: 800px) {
