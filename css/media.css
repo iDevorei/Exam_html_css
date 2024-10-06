@@ -318,7 +318,13 @@
 }
 
 @media (max-width: 768px) {
-    
+    .get__inner {
+        flex-direction: column;
+    }
+
+    .get__natural, .get__offer {
+        width: 60%;
+    }
 }
 
 @media (max-width: 640px) {
