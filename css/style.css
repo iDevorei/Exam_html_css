@@ -451,6 +451,7 @@ ol, ul {
     background-image: url(/images/img_testimonial_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 190px 0 110px;
 }
 
