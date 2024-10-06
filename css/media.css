@@ -1,16 +1,13 @@
 @media (max-width: 2560px) {
-    /* .eco__container {
-        display: none;
-    } */
+
 }
 
 @media (max-width: 1920px) {
-    /* .eco {
-        justify-content: flex-start;
-    } */
+
 }
 
 @media (max-width: 1440px) {
+
 }
 
 @media (max-width: 1280px) {
@@ -195,7 +192,129 @@
 }
 
 @media (max-width: 800px) {
-    
+    .header__wrapper {
+        gap: 30px;
+    }
+
+    .header__nav-wrapper {
+        display: none;
+    }
+
+    .header__nav-toggle,
+    .header__nav-btn-close {
+        display: block;
+    }
+
+    #header__nav-toggle:checked ~ .header__nav-wrapper {
+        display: flex;
+    }
+
+    .header__nav-list {
+        background-color: rgba(255, 228, 196, 0.807);
+        position: fixed;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        gap: 20px;
+        width: min(30%, 300px);
+        height: 100%;
+        z-index: 990;
+        padding: 75px 45px 45px 45px;
+    }
+
+    .header__nav-item:last-child {
+        margin-left: 0;
+    }
+
+    .promo__general-titile {
+        width: 60%;
+    }
+
+    .get {
+        margin: 20px 0;
+    }
+
+    .get__text-natural, .get__text-offer {
+        font-size: 30px;
+    }
+
+    .about {
+        padding: 40px 0;
+    }
+
+    .products__navigation {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .products__btn-left,
+    .products__btn-right {
+        display: block;
+        align-self: center;
+        border: none;
+        background-color: #274C5B;
+        padding: 25px;
+    }
+
+    .products__btn-left {
+        clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    }
+
+    .products__btn-right {
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    }
+
+    .products__list {
+        justify-content: flex-start;
+        gap: 30px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+
+    .testimonial {
+        padding: 20px 0 30px;
+    }
+
+    .testimonial__customer-status::after {
+        margin: 20px auto 26px;
+    }
+
+    .offer__inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .offer__button {
+        align-self: flex-end;
+    }
+
+    .products__btn--color {
+        background-color: #EFD372;
+    }
+
+    .links__link {
+        font-size: 20px;
+        padding: 30px 30px;
+    }
+
+    .subscribe__inner {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .subscribe__unic-title {
+        width: auto;
+    }
+
+    .subscribe__form-wrapper {
+        flex-direction: column;
+    }
+
+    .subscribe__email {
+        width: 300px;
+    }
 }
 
 @media (max-width: 768px) {

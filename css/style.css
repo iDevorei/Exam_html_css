@@ -104,6 +104,45 @@ ol, ul {
     color: #525C60;
 }
 
+.header__nav-btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    line-height: 2rem;
+    letter-spacing: 0.36px;
+    color: white;
+    border: none;
+    text-wrap: nowrap;
+    cursor: pointer;
+    border-radius: 16px;
+    background-color: #274C5B;
+    padding: 12px 20px;
+}
+
+.header__nav-toggle,
+.header__nav-btn-close {
+    display: none;
+}
+
+#header__nav-toggle {
+    display: none;
+}
+
+.header__nav-btn-close {
+    position: fixed;
+    top: 55px;
+    left: 25%;
+    z-index: 991;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    transform: rotate(45deg);
+}
+
+.products__btn-left,
+.products__btn-right {
+    display: none;
+}
+
 /* ====================================================================================================== */
 
 .header {

@@ -22,13 +22,23 @@
                             </a>
                         </div>
                         <nav class="header__nav">
-                            <ul class="header__nav-list">
-                                <li class="header__nav-item"><a href="#" class="action-link header__nav-link link-hov">Home</a></li>
-                                <li class="header__nav-item"><a href="#" class="header__nav-link link-hov">About Us</a></li>
-                                <li class="header__nav-item"><a href="#" class="header__nav-link link-hov">Shop</a></li>
-                                <li class="header__nav-item"><a href="#" class="header__nav-link link-hov">Pages</a></li>
-                                <li class="header__nav-item"><a href="#" class="header__nav-link link-hov">Contact Us</a></li>
-                            </ul>
+                            <button class="header__nav-btn header__nav-toggle">
+                                <label class="header__nav-label" for="header__nav-toggle">menu</label>
+                            </button>
+                            <input type="checkbox" name="nav-btn" id="header__nav-toggle">
+                            
+                            <div class="header__nav-wrapper">
+                                <button class="header__nav-btn-close">
+                                    <label class="header__nav-label" for="header__nav-toggle">+</label>
+                                </button>
+                                <ul class="header__nav-list">
+                                    <li class="header__nav-item"><a href="#" class="action-link header__nav-link link-hov">Home</a></li>
+                                    <li class="header__nav-item"><a href="#" class="header__nav-link link-hov">About Us</a></li>
+                                    <li class="header__nav-item"><a href="#" class="header__nav-link link-hov">Shop</a></li>
+                                    <li class="header__nav-item"><a href="#" class="header__nav-link link-hov">Pages</a></li>
+                                    <li class="header__nav-item"><a href="#" class="header__nav-link link-hov">Contact Us</a></li>
+                                </ul>
+                            </div>
                         </nav>
                     </div>
                     <div class="header__basket">
@@ -99,135 +109,139 @@
             <div class="container">
                 <h3 class="products__subtitle subtitle">Organic</h3>
                 <h2 id="products__anchor" class="products__title title">Our Products</h2>
-                <ul class="products__list">
-                    <li class="products__item">
-                        <div class="products__card">
-                            <div class="products__card-status">Vegetable</div>
-                            <div class="products__card-image">
-                                <img src="/images/img_card_broccoli.png" alt="#" class="products__card-img">
+                <div class="products__navigation">
+                    <button class="products__btn-left"></button>
+                    <ul class="products__list">
+                        <li class="products__item">
+                            <div class="products__card">
+                                <div class="products__card-status">Vegetable</div>
+                                <div class="products__card-image">
+                                    <img src="/images/img_card_broccoli.png" alt="#" class="products__card-img">
+                                </div>
+                                <div class="products__card-name">Calabrese Broccoli</div>
+                                <div class="products__card-info">
+                                    <div class="products__card-price">
+                                        <div class="products__card-price-old">&dollar; 25.00 USD</div>
+                                        <div class="products__card-price-now">&dollar; 21.00 USD</div>
+                                    </div>
+                                    <div class="products__card-rating">
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="products__card-name">Calabrese Broccoli</div>
-                            <div class="products__card-info">
-                                <div class="products__card-price">
-                                    <div class="products__card-price-old">&dollar; 25.00 USD</div>
-                                    <div class="products__card-price-now">&dollar; 21.00 USD</div>
+                        </li>
+                        <li class="products__item">
+                            <div class="products__card">
+                                <div class="products__card-status">Vegetable</div>
+                                <div class="products__card-image">
+                                    <img src="/images/img_card_corn.png" alt="#" class="products__card-img">
                                 </div>
-                                <div class="products__card-rating">
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                </div>
+                                <div class="products__card-name">Fresh Corn</div>
+                                <div class="products__card-info">
+                                    <div class="products__card-price">
+                                        <div class="products__card-price-old">&dollar; 21.23 USD</div>
+                                        <div class="products__card-price-now">&dollar; 18.00 USD</div>
+                                    </div>
+                                    <div class="products__card-rating">
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                    </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="products__item">
-                        <div class="products__card">
-                            <div class="products__card-status">Vegetable</div>
-                            <div class="products__card-image">
-                                <img src="/images/img_card_corn.png" alt="#" class="products__card-img">
+                        </li>
+                        <li class="products__item">
+                            <div class="products__card">
+                                <div class="products__card-status">Millets</div>
+                                <div class="products__card-image">
+                                    <img src="/images/img_card_pistachio.png" alt="#" class="products__card-img">
+                                </div>
+                                <div class="products__card-name">Dried Pistachio</div>
+                                <div class="products__card-info">
+                                    <div class="products__card-price">
+                                        <div class="products__card-price-old">&dollar; 61.00 USD</div>
+                                        <div class="products__card-price-now">&dollar; 48.00 USD</div>
+                                    </div>
+                                    <div class="products__card-rating">
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                    </div>
                             </div>
-                            <div class="products__card-name">Fresh Corn</div>
-                            <div class="products__card-info">
-                                <div class="products__card-price">
-                                    <div class="products__card-price-old">&dollar; 21.23 USD</div>
-                                    <div class="products__card-price-now">&dollar; 18.00 USD</div>
+                        </li>
+                        <li class="products__item">
+                            <div class="products__card">
+                                <div class="products__card-status">Vegetable</div>
+                                <div class="products__card-image">
+                                    <img src="/images/img_card_tomato.png" alt="#" class="products__card-img">
                                 </div>
-                                <div class="products__card-rating">
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                </div>
-                        </div>
-                    </li>
-                    <li class="products__item">
-                        <div class="products__card">
-                            <div class="products__card-status">Millets</div>
-                            <div class="products__card-image">
-                                <img src="/images/img_card_pistachio.png" alt="#" class="products__card-img">
+                                <div class="products__card-name">Vegan Red Tomato</div>
+                                <div class="products__card-info">
+                                    <div class="products__card-price">
+                                        <div class="products__card-price-old">&dollar; 14.00 USD</div>
+                                        <div class="products__card-price-now">&dollar; 9.37 USD</div>
+                                    </div>
+                                    <div class="products__card-rating">
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                    </div>
                             </div>
-                            <div class="products__card-name">Dried Pistachio</div>
-                            <div class="products__card-info">
-                                <div class="products__card-price">
-                                    <div class="products__card-price-old">&dollar; 61.00 USD</div>
-                                    <div class="products__card-price-now">&dollar; 48.00 USD</div>
+                        </li>
+                        <li class="products__item">
+                            <div class="products__card">
+                                <div class="products__card-status">Fruits</div>
+                                <div class="products__card-image">
+                                    <img src="/images/img_card_almonds.png" alt="#" class="products__card-img">
                                 </div>
-                                <div class="products__card-rating">
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                </div>
-                        </div>
-                    </li>
-                    <li class="products__item">
-                        <div class="products__card">
-                            <div class="products__card-status">Vegetable</div>
-                            <div class="products__card-image">
-                                <img src="/images/img_card_tomato.png" alt="#" class="products__card-img">
+                                <div class="products__card-name">Organic Almonds</div>
+                                <div class="products__card-info">
+                                    <div class="products__card-price">
+                                        <div class="products__card-price-old">&dollar; 21.00 USD</div>
+                                        <div class="products__card-price-now">&dollar; 18.00 USD</div>
+                                    </div>
+                                    <div class="products__card-rating">
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                    </div>
                             </div>
-                            <div class="products__card-name">Vegan Red Tomato</div>
-                            <div class="products__card-info">
-                                <div class="products__card-price">
-                                    <div class="products__card-price-old">&dollar; 14.00 USD</div>
-                                    <div class="products__card-price-now">&dollar; 9.37 USD</div>
+                        </li>
+                        <li class="products__item">
+                            <div class="products__card">
+                                <div class="products__card-status">Millets</div>
+                                <div class="products__card-image">
+                                    <img src="/images/img_card_hazelnut.png" alt="#" class="products__card-img">
                                 </div>
-                                <div class="products__card-rating">
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                </div>
-                        </div>
-                    </li>
-                    <li class="products__item">
-                        <div class="products__card">
-                            <div class="products__card-status">Fruits</div>
-                            <div class="products__card-image">
-                                <img src="/images/img_card_almonds.png" alt="#" class="products__card-img">
+                                <div class="products__card-name">Brown Hazelnut</div>
+                                <div class="products__card-info">
+                                    <div class="products__card-price">
+                                        <div class="products__card-price-old">&dollar; 43.00 USD</div>
+                                        <div class="products__card-price-now">&dollar; 34.00 USD</div>
+                                    </div>
+                                    <div class="products__card-rating">
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                    </div>
                             </div>
-                            <div class="products__card-name">Organic Almonds</div>
-                            <div class="products__card-info">
-                                <div class="products__card-price">
-                                    <div class="products__card-price-old">&dollar; 21.00 USD</div>
-                                    <div class="products__card-price-now">&dollar; 18.00 USD</div>
-                                </div>
-                                <div class="products__card-rating">
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                </div>
-                        </div>
-                    </li>
-                    <li class="products__item">
-                        <div class="products__card">
-                            <div class="products__card-status">Millets</div>
-                            <div class="products__card-image">
-                                <img src="/images/img_card_hazelnut.png" alt="#" class="products__card-img">
-                            </div>
-                            <div class="products__card-name">Brown Hazelnut</div>
-                            <div class="products__card-info">
-                                <div class="products__card-price">
-                                    <div class="products__card-price-old">&dollar; 43.00 USD</div>
-                                    <div class="products__card-price-now">&dollar; 34.00 USD</div>
-                                </div>
-                                <div class="products__card-rating">
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                    <button class="products__btn-right"></button>
+                </div>
             </div>
         </section>
 
@@ -280,71 +294,75 @@
                         <button class="offer__btn default-btn action-btn">View All Products</button>
                     </div>
                 </div>
-                <ul class="products__list">
-                    <li class="products__item">
-                        <div class="products__card">
-                            <div class="products__card-status">Vegetable</div>
-                            <div class="products__card-image">
-                                <img src="/images/img_card_tomato.png" alt="#" class="products__card-img">
+                <div class="products__navigation">
+                    <button class="products__btn-left products__btn--color"></button>
+                    <ul class="products__list">
+                        <li class="products__item">
+                            <div class="products__card">
+                                <div class="products__card-status">Vegetable</div>
+                                <div class="products__card-image">
+                                    <img src="/images/img_card_tomato.png" alt="#" class="products__card-img">
+                                </div>
+                                <div class="products__card-name">Vegan Red Tomato</div>
+                                <div class="products__card-info">
+                                    <div class="products__card-price">
+                                        <div class="products__card-price-old">&dollar; 14.00 USD</div>
+                                        <div class="products__card-price-now">&dollar; 9.37 USD</div>
+                                    </div>
+                                    <div class="products__card-rating">
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                    </div>
                             </div>
-                            <div class="products__card-name">Vegan Red Tomato</div>
-                            <div class="products__card-info">
-                                <div class="products__card-price">
-                                    <div class="products__card-price-old">&dollar; 14.00 USD</div>
-                                    <div class="products__card-price-now">&dollar; 9.37 USD</div>
+                        </li>
+                        <li class="products__item">
+                            <div class="products__card">
+                                <div class="products__card-status">Fruits</div>
+                                <div class="products__card-image">
+                                    <img src="/images/img_card_almonds.png" alt="#" class="products__card-img">
                                 </div>
-                                <div class="products__card-rating">
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                </div>
-                        </div>
-                    </li>
-                    <li class="products__item">
-                        <div class="products__card">
-                            <div class="products__card-status">Fruits</div>
-                            <div class="products__card-image">
-                                <img src="/images/img_card_almonds.png" alt="#" class="products__card-img">
+                                <div class="products__card-name">Organic Almonds</div>
+                                <div class="products__card-info">
+                                    <div class="products__card-price">
+                                        <div class="products__card-price-old">&dollar; 21.00 USD</div>
+                                        <div class="products__card-price-now">&dollar; 18.00 USD</div>
+                                    </div>
+                                    <div class="products__card-rating">
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                    </div>
                             </div>
-                            <div class="products__card-name">Organic Almonds</div>
-                            <div class="products__card-info">
-                                <div class="products__card-price">
-                                    <div class="products__card-price-old">&dollar; 21.00 USD</div>
-                                    <div class="products__card-price-now">&dollar; 18.00 USD</div>
+                        </li>
+                        <li class="products__item">
+                            <div class="products__card">
+                                <div class="products__card-status">Vegetable</div>
+                                <div class="products__card-image">
+                                    <img src="/images/img_card_corn.png" alt="#" class="products__card-img">
                                 </div>
-                                <div class="products__card-rating">
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                </div>
-                        </div>
-                    </li>
-                    <li class="products__item">
-                        <div class="products__card">
-                            <div class="products__card-status">Vegetable</div>
-                            <div class="products__card-image">
-                                <img src="/images/img_card_corn.png" alt="#" class="products__card-img">
+                                <div class="products__card-name">Fresh Corn</div>
+                                <div class="products__card-info">
+                                    <div class="products__card-price">
+                                        <div class="products__card-price-old">&dollar; 21.23 USD</div>
+                                        <div class="products__card-price-now">&dollar; 18.00 USD</div>
+                                    </div>
+                                    <div class="products__card-rating">
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                        <span class="products__card-stars stars"></span>
+                                    </div>
                             </div>
-                            <div class="products__card-name">Fresh Corn</div>
-                            <div class="products__card-info">
-                                <div class="products__card-price">
-                                    <div class="products__card-price-old">&dollar; 21.23 USD</div>
-                                    <div class="products__card-price-now">&dollar; 18.00 USD</div>
-                                </div>
-                                <div class="products__card-rating">
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                    <span class="products__card-stars stars"></span>
-                                </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                    <button class="products__btn-right products__btn--color"></button>
+                </div>
             </div>
         </section>
 
