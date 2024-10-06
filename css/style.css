@@ -27,6 +27,14 @@ ol, ul {
 
 .container {
     width: min(95%, 1380px);
+}
+
+.big-device {
+    width: min(100%, 1920px);
+}
+
+.container,
+.big-device {
     margin: 0 auto;
 }
 
@@ -56,6 +64,7 @@ ol, ul {
     background-color: #274C5B;
     padding: 25px 10px 25px 33px;
     border-radius: 16px;
+    text-wrap: nowrap;
 
     display: flex;
     align-items: center;
@@ -137,6 +146,7 @@ ol, ul {
     color: #274C5B;
     cursor: pointer;
     text-decoration: none;
+    text-wrap: nowrap;
 }
 
 .header__basket {
@@ -845,6 +855,6 @@ ol, ul {
 }
 
 .footer__map {
-    /* width: min(100%, 1440px); */
     width: 100%;
+    display: block;
 }
