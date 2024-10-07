@@ -211,7 +211,20 @@ ol, ul {
     font-family: "Roboto", sans-serif;
     font-size: 17px;
     line-height: 28.8px;
-    margin-right: 25px;
+    margin-right: 15px;
+}
+
+.header__basket-amt,
+.header__basket-amt::placeholder,
+.header__basket-amt:focus,
+.header__basket-amt:active {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+    border: none;
+    outline: none;
+    width: 20px;
 }
 
 /* =========================================================================================== */
@@ -427,12 +440,16 @@ ol, ul {
     left: 30px;
 }
 
-.products__card-name {
+.products__card-img-link {
+    display: block;
+}
+
+/* .products__card-name {
     font-family: "Roboto", sans-serif;
     font-size: 22px;
     line-height: 35.2px;
     margin-bottom: 12px;
-}
+} */
 
 .products__card-name::after {
     content: '';
@@ -440,6 +457,18 @@ ol, ul {
     border: 1px solid #D4D4D4;
     margin-top: 12px;
     margin-bottom: 10px;
+}
+
+.products__card-name-link {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    line-height: 35.2px;
+    margin-bottom: 12px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .products__card-info {
