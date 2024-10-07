@@ -189,10 +189,14 @@ ol, ul {
 }
 
 .header__basket {
+    display: block;
     border: 1px solid #D4D4D4;
     border-radius: 33px;
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: #274C5B;
+    cursor: pointer;
 }
 
 .header__basket-img {
@@ -205,6 +209,10 @@ ol, ul {
     height: 24px;
     padding: 25px;
     border-radius: 50%;
+}
+
+.header__basket:hover .header__basket-img {
+    background-color: #7EB693;
 }
 
 .header__basket-counter {
