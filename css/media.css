@@ -200,7 +200,7 @@
         width: min(30%, 300px);
         height: 100%;
         z-index: 990;
-        padding: 75px 45px 45px 45px;
+        padding: 60px 45px 45px 45px;
     }
 
     .header__nav-item:last-child {
@@ -473,6 +473,10 @@
 @media (max-width: 376px) {
     .header__nav-list {
         width: min(45%, 300px);
+    }
+
+    .header__nav-btn-close {
+        left: 35%;
     }
 
     .promo__general-titile {
