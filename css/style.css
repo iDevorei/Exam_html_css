@@ -75,7 +75,7 @@ ol, ul {
 .default-btn::after {
     content: '';
     display: flex;
-    background-image: url(images/img_arrow_right.png);
+    background-image: url(..images/img_arrow_right.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #335B6B;
@@ -202,7 +202,7 @@ ol, ul {
 .header__basket-img {
     margin: 7px 10px;
     background-color: #274C5B;
-    background-image: url(images/img_basket.png);
+    background-image: url(..images/img_basket.png);
     background-position: center;
     background-repeat: no-repeat;
     width: 26px;
@@ -238,7 +238,7 @@ ol, ul {
 /* =========================================================================================== */
 
 .promo {
-    background-image: url(images/img_promo_bg.png);
+    background-image: url(..images/img_promo_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: center; */
@@ -301,7 +301,7 @@ ol, ul {
 }
 
 .get__natural {
-    background-image: url(images/img_get_natural.png);
+    background-image: url(..images/img_get_natural.png);
 }
 
 .get__natural:hover .get__text-natural,
@@ -310,7 +310,7 @@ ol, ul {
 }
 
 .get__offer {
-    background-image: url(images/img_get_offer.png);
+    background-image: url(..images/img_get_offer.png);
 }
 
 .get__text-natural,
@@ -380,14 +380,14 @@ ol, ul {
 }
 
 .about__features-item:nth-child(1)::before {
-    background-image: url(images/img_about_food_ico.png);
+    background-image: url(..images/img_about_food_ico.png);
     width: 53px;
     height: 46px;
     padding: 27px 24px;
 }
 
 .about__features-item:nth-child(2)::before {
-    background-image: url(images/img_about_standarts_ico.png);
+    background-image: url(..images/img_about_standarts_ico.png);
     width: 56px;
     height: 52px;
     padding: 24px 22px;
@@ -513,7 +513,7 @@ ol, ul {
 }
 
 .products__card-stars {
-    background-image: url(images/img_star_ico.png);
+    background-image: url(..images/img_star_ico.png);
     background-repeat: no-repeat;
     width: 14px;
     height: 13px;
@@ -524,7 +524,7 @@ ol, ul {
 
 .testimonial {
     text-align: center;
-    background-image: url(images/img_testimonial_bg.png);
+    background-image: url(..images/img_testimonial_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -547,7 +547,7 @@ ol, ul {
 }
 
 .testimonial__stars {
-    background-image: url(images/img_star_rating_ico.png);
+    background-image: url(..images/img_star_rating_ico.png);
     background-repeat: no-repeat;
     width: 22px;
     height: 21px;
@@ -703,15 +703,15 @@ ol, ul {
 }
 
 .links__item:nth-child(1) {
-    background-image: url(images/img_links_fruit.png);
+    background-image: url(..images/img_links_fruit.png);
 }
 
 .links__item:nth-child(2) {
-    background-image: url(images/img_links_organic.png);
+    background-image: url(..images/img_links_organic.png);
 }
 
 .links__item:nth-child(3) {
-    background-image: url(images/img_links_nuts.png);
+    background-image: url(..images/img_links_nuts.png);
 }
 
 .links__item {
@@ -743,7 +743,7 @@ ol, ul {
 }
 
 .subscribe__inner {
-    background-image: url(images/img_subscr_bg.png);
+    background-image: url(..images/img_subscr_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -873,19 +873,19 @@ ol, ul {
 }
 
 .footer__media-link:nth-child(1) .footer__media-ico {
-    background-image: url(images/img_footer_fb_ico.png);
+    background-image: url(..images/img_footer_fb_ico.png);
 }
 
 .footer__media-link:nth-child(2) .footer__media-ico {
-    background-image: url(images/img_footer_tw_ico.png);
+    background-image: url(..images/img_footer_tw_ico.png);
 }
 
 .footer__media-link:nth-child(3) .footer__media-ico {
-    background-image: url(images/img_footer_inst_ico.png);
+    background-image: url(..images/img_footer_inst_ico.png);
 }
 
 .footer__media-link:nth-child(4) .footer__media-ico {
-    background-image: url(images/img_footer_pi_ico.png);
+    background-image: url(..images/img_footer_pi_ico.png);
 }
 
 .footer__media-link {
